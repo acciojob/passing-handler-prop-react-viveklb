@@ -1,9 +1,12 @@
 .fix-box {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     margin: 20px;
     border: 1px white dotted;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #master{
@@ -18,4 +21,7 @@
 }
 .row {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
